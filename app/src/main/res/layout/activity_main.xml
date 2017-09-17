@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:layout_centerInParent="true"
+    android:background="#5ed6c8"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/fine"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:id="@+id/button_choose"
+        android:layout_width="216dp"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Choose your outfit!"
+        android:textColor="#fff"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"/>
+
+
+
+
+</LinearLayout>
